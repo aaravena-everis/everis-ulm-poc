@@ -1,1 +1,8 @@
-<?php header( 'Location: poculm://everis-ulm-poc.herokuapp.com/page-mymovistar' ) ;  ?>
+<?php
+if (isset($_GET) {
+	var_dump($_GET);
+} else {
+    echo "No llegó nada";
+}
+
+?>
