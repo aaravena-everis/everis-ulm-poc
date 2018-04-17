@@ -20,7 +20,7 @@
 
 <pre><?php var_dump($_GET); ?></pre>
 
-<a href="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK"></a>
+<a href="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK">IR A LA APP</a>
 
 </body>
 
