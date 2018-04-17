@@ -9,6 +9,9 @@ echo 'state ' . htmlspecialchars($_GET["state"]) . '<br />';
 echo 'nonce ' . htmlspecialchars($_GET["nonce"]) . '<br />';
 ?>
 </p>
+<pre>
+	<?php var_dump($_GET); ?>
+</pre>
 </body>
 
 </html>
