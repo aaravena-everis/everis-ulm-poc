@@ -1,1 +1,1 @@
-<?php header( 'Location: /index.html' ) ;  ?>
+<?php header( 'Location: poculm://everis-ulm-poc.herokuapp.com/page-mymovistar' ) ;  ?>
