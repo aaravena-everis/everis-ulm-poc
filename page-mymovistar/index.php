@@ -1,8 +1,14 @@
+<html>
+<head></head>
+<body>
+	<h1>Recibido:</h1>
+<p>
 <?php
-if (isset($_GET) {
-	var_dump($_GET);
-} else {
-    echo "No llegó nada";
-}
-
+echo 'code ' . htmlspecialchars($_GET["code"]) . '<br />';
+echo 'state ' . htmlspecialchars($_GET["state"]) . '<br />';
+echo 'nonce ' . htmlspecialchars($_GET["nonce"]) . '<br />';
 ?>
+</p>
+</body>
+
+</html>
