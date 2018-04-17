@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.everis.ulm.poc",
+    "sha256_cert_fingerprints":
+    ["1E:B6:1C:60:D2:C0:72:4F:F4:2D:AB:81:67:00:0C:01:BC:CF:3E:3C:16:92:6B:60:AC:01:37:75:D3:C3:8B:1C"]
+  }
+}]
