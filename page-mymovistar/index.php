@@ -20,8 +20,8 @@
 
 <pre><?php var_dump($_GET); ?></pre>
 
-<form action="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK" method="get" >
-    <input type="submit" value="Ir a la app" />
+<form action="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK" method="get" target="_blank">
+    <input type="submit" value="Ir a la app2" />
 </form>
 
 </body>
