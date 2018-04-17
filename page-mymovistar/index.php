@@ -12,9 +12,13 @@
 	    }
 	    location.href = parts[0] + mark + 'fragment=' + parts[1];
 	}
+
+	myFunction() {
+		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK";
+	}
 	</script>	
 </head>
-<body>
+<body onload="myFunction()">
 	<h1>Recibido:</h1>
 <p> <?php echo 'fragmento ' . htmlspecialchars($_GET['fragment']); ?> </p>
 
