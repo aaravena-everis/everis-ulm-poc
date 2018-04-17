@@ -22,6 +22,10 @@
 
 <a href="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK" target="_blank">Ir a la app </a>
 
+<form action="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK" target="_blank">
+        <input type="submit" value="Open App" />
+    </form>
+
 </body>
 
 
