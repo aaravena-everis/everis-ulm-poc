@@ -15,12 +15,16 @@
 	</script>	
 </head>
 <body>
-	
 	<h1>Recibido:</h1>
 <p> <?php echo 'fragmento ' . htmlspecialchars($_GET['fragment']); ?> </p>
 
 <pre><?php var_dump($_GET); ?></pre>
 
+<form action="poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK">
+    <input type="submit" value="Go to Google" />
+</form>
+
 </body>
+
 
 </html>
