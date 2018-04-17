@@ -13,7 +13,7 @@
 	    location.href = parts[0] + mark + 'fragment=' + parts[1];
 	}
 
-	myFunction() {
+	function myFunction() {
 		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?prueba=OK";
 	}
 	</script>	
