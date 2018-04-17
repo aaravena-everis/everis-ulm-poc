@@ -4,7 +4,7 @@ var static = require( 'node-static' ),
     http = require( 'http' );
 
 // config
-var file = new static.Server( './index.html', {
+var file = new static.Server( './page-mymovistar/googleca08507c3e408de4.html', {
     cache: 3600,
     gzip: true
 } );
