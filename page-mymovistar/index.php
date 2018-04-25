@@ -14,7 +14,7 @@
 document.getElementById("url").innerHTML = String(getUrl[1]);
 
 function myFunction() {
-	window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/#"+String(getUrl[1]);
+	window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?fragment="+String(getUrl[1]);
 }
 </script>
 
