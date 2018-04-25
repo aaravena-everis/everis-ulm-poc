@@ -10,7 +10,7 @@
 </body>
 <script>
 	var getUrl = window.location.href;
-	getUrl = getUrl.split('?');
+	getUrl = getUrl.split('#');
 document.getElementById("url").innerHTML = String(getUrl[1]);
 
 function myFunction() {
