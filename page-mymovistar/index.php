@@ -13,11 +13,6 @@
 	    location.href = parts[0] + mark + 'fragment=' + parts[1];
 	}
 
-	
-
-	function myFunction() {
-		//window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/#";
-	}
 	</script>	
 </head>
 <body onload="myFunction()">
@@ -30,8 +25,13 @@
 
 </body>
 <script>
-	var getUrl = String(window.location.href);
-document.getElementById("url").innerHTML = getUrl;
+	var getUrl = window.location.href;
+	getUrl = getUrl.split('?');
+document.getElementById("url").innerHTML = String(getUrl[1]);
+
+function myFunction() {
+	//window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?";
+}
 </script>
 
 
