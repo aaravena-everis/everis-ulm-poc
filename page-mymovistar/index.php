@@ -14,10 +14,10 @@
 	}
 
 	console.log("-----------FRAGMENTOS----------");
-	console.log(parts[1]);
+	console.log(location.href);
 
 	function myFunction() {
-		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/#"+parts[1];
+		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/#"+location.href;
 	}
 	</script>	
 </head>
