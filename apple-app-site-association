@@ -1,5 +1,11 @@
 {
    "webcredentials": {
-       "apps": [    "623Y84957N.com.everis.ulm.poc" ]
-    }
+       "apps": [    "623Y84957N.com.everis.ulm.poc" ],
+    "details": [
+      {
+        "appID": "623Y84957N.com.everis.ulm.poc",
+        "paths":[ "*" ]
+      }
+    ]
+  }
 }
