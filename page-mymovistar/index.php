@@ -20,7 +20,7 @@
 	getUrl2 = getUrl2.split('?');
 	document.getElementById("url2").innerHTML = String(getUrl2[1]);
 
-	if ((String(getUrl[1]) != 'undefined') {
+	if (String(getUrl[1]) != 'undefined') {
 		document.getElementById("res").innerHTML = "Recibido via #";
 	} else if (String(getUrl2[1]) != 'undefined') {
 		document.getElementById("res").innerHTML = "Recibido via ?";
