@@ -32,7 +32,7 @@ function myFunction() {
 	if (String(getUrl[1]) != 'undefined') {
 		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?fragment="+String(getUrl[1]);
 	} else if (String(getUrl2[1]) != 'undefined') {
-		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?fragment="+String(getUr2l[1]);
+		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?fragment="+String(getUrl2[1]);
 	} else {
 		console.log("nada recibido");
 	}
