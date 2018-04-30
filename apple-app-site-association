@@ -5,7 +5,7 @@
             {
                 "appID": "623Y84957N.com.everis.ulm.poc",
                 "paths": [
-                    "*"
+                    "/page-mymovistar/*"
                 ]
             }
         ]
