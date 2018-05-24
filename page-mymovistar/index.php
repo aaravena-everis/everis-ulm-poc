@@ -29,9 +29,12 @@
 	}
 
 function myFunction() {
+	console.log("MY FUNCION")
 	if (String(getUrl[1]) != 'undefined') {
+		console.log("MY FUNCION CON #")
 		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?fragment="+String(getUrl[1]);
 	} else if (String(getUrl2[1]) != 'undefined') {
+		console.log("MY FUNCION CON ?")
 		window.location = "poculm://everis-ulm-poc.herokuapp.com/page-mymovistar/?fragment="+String(getUrl2[1]);
 	} else {
 		console.log("nada recibido");
